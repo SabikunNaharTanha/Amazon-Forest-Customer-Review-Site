@@ -1,0 +1,20 @@
+.blogs {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.blog-1 {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(250, 250, 218);
+}
+
+.blog-2 {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(250, 250, 218);
+}
