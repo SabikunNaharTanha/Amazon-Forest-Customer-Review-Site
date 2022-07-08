@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -13,6 +14,8 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setReview(data))
     }, []);
+
+
 
 
     return (
