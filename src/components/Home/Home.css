@@ -1,0 +1,30 @@
+.home {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 35px;
+    margin: 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.details-container p {
+    padding: 15px 30px;
+}
+
+.home img {
+    height: 280px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.home button:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
