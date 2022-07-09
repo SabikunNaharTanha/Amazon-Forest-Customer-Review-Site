@@ -25,10 +25,12 @@ const Home = () => {
             <h1 className='text-2xl font-bold text-rose-800'>Customer Review</h1>
             <div className='review-container'>
                 {
-                    reviews.map(review => <Review
-                        key={review.id}
-                        review={review}
-                    ></Review>)
+                    reviews.map(review =>
+
+                        <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
                 }
             </div>
 
