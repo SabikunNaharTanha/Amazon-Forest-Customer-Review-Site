@@ -1,22 +1,11 @@
 import React from 'react';
-import axios from 'axios';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Reviews from '../../Hook/Footer/Reviews/Reviews';
 import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
-    const [reviews, setReview] = useState([]);
-
-    useEffect(() => {
-        fetch('generated.json')
-            .then(res => res.json())
-            .then(data => setReview(data))
-    }, []);
-
-
-
+    const [reviews, setReviews] = Reviews();
 
     return (
         <div>

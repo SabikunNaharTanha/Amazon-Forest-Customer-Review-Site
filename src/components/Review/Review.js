@@ -13,8 +13,8 @@ const Review = ({ review }) => {
             <p><small>
                 {text.length > 50 ? text.slice(0, 50) + '...' : text}
             </small></p>
-            <CustomLink to='/review'>
-                <button className='p-2 bg-slate-200 rounded-lg m-3 text-rose-900 text-lg font-semibold'>Read More</button>
+            <CustomLink to='/customerReview'>
+                <button className='p-2 bg-slate-200 rounded-lg m-3 text-rose-900 text-lg font-semibold'>SEE ALL REVIEWS</button>
             </CustomLink>
 
         </div>
