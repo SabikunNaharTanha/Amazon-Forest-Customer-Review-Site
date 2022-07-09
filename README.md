@@ -1,5 +1,14 @@
-# Getting Started with Create React App
+**Amazon Forest Customer Review Site**
 
+* This project has 5 routes, 1. Home 2. Reviews 3. Blogs 4. Dashboards 5. About
+* Home page contains the reviews
+* Dashboards contains charts. 1.Barchart 2. Piechart
+* Blogs contains some answers
+* About section contains the information of the site
+
+Live Link: https://lively-hummingbird-f8c4d6.netlify.app/
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
