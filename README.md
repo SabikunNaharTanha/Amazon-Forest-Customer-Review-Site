@@ -4,7 +4,7 @@
 * Home page contains the reviews
 * Dashboards contains charts. 1.Barchart 2. Piechart
 * Blogs contains some answers
-* About section contains the information of the site
+* About section contains the information of the site 
 
 Live Link: https://lively-hummingbird-f8c4d6.netlify.app/
 
