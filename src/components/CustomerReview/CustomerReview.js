@@ -9,7 +9,7 @@ const CustomerReview = () => {
     return (
         <div className='Customer-review'>
             <h1 className='m-20 text-3xl font-bold text-rose-800'>Customer Reviews</h1>
-            <div className='review-box'>
+            <div className='customer-review-box'>
                 {
                     reviews.map(review => <ReviewCard key={review.id} review={review}></ReviewCard>)
                 }

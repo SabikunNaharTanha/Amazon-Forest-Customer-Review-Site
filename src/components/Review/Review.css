@@ -1,11 +1,18 @@
 .reviews {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 50px;
     border: 2px solid rgba(182, 178, 178, 0.788);
     border-radius: 10px;
-    width: 280px;
-    height: 380px;
+    width: 350px;
+    height: 360px;
     padding: 7px;
+
+
+
+}
+
+.review-container {
+    margin: 10px 40px;
 }
 
 .reviews p {
@@ -13,7 +20,7 @@
 }
 
 .reviews img {
-    width: 270px;
+    width: 330px;
     height: 170px;
     border-radius: 10px;
 }

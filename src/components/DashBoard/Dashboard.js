@@ -43,6 +43,7 @@ const Dashboard = () => {
 
     return (
         <div className='dashboard'>
+            <h1 className='m-10 text-3xl font-bold text-rose-800'>Investment Per Year</h1>
             <BarChart className='m-10 mt-20 mb-20' width={730} height={250} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis />
